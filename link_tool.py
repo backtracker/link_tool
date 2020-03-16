@@ -20,8 +20,8 @@ def link(s, d):
 
     if not os.lstat(s).st_dev == os.lstat(d).st_dev:
         print("源目录和目标目录不在同一个磁盘！！！")
-        print("开始删除目录："+d)
-        os.system("rm -rvf "+d)
+        #print("开始删除目录："+d)
+        #os.system("rm -rvf "+d)
         print("程序退出！！！")
         return  -1 ;
 
