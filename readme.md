@@ -15,9 +15,8 @@
 python3 link_tool.py -s <src dir> -d <dst dir>
 ```
 
-![5.png](https://z4a.net/images/2020/03/16/5.png)
+![5.png](https:\\z4a.net\images\2020\03\16\5.png)
 
-![6.png](https://z4a.net/images/2020/03/16/6.png)
+![6.png](https:\\z4a.net\images\2020\03\16\6.png)
 
-[![6.png](https://z4a.net/images/2020/03/16/6.png)](https://z4a.net/image/eCtwcJ)
 
