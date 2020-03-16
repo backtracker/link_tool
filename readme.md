@@ -15,4 +15,6 @@
 python3 link_tool.py -s <src dir> -d <dst dir>
 ```
 
-![6](assets/readme/6.png)![5](assets/readme/5.png)
+![5](assets/readme/5.png)
+
+![6](assets/readme/6.png)
