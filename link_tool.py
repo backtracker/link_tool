@@ -17,6 +17,9 @@ def link(s, d):
     if not os.path.exists(d):
         print("开始创建目录："+d)
         os.system("mkdir -p "+d)
+    elif not len(os.listdir(d) ) == 0:
+        print("目标目录不是空目录！！！")
+        return -1;
 
     if not os.lstat(s).st_dev == os.lstat(d).st_dev:
         print("源目录和目标目录不在同一个磁盘！！！")
