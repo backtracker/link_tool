@@ -18,7 +18,7 @@ def link(s, d):
         print("开始创建目录："+d)
         os.system("mkdir -p "+d)
     elif not len(os.listdir(d) ) == 0:
-        print("目标目录不是空目录！！！")
+        print("目标目录 "+d+" 非空！！！")
         return -1;
 
     if not os.lstat(s).st_dev == os.lstat(d).st_dev:
