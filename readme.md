@@ -2,7 +2,7 @@
 
 ### 更新
 
-经[xuewenG](https://github.com/xuewenG) 提醒，使用`cp -r -l [src_dir] [dst_dir]` 可以达到同意的效果，我自己测试了一把通过。
+经[xuewenG](https://github.com/xuewenG) 提醒，使用`cp -r -l [src_dir] [dst_dir]` 可以达到同样的效果，我自己测试了一把通过。
 
 ```shell
 -l, --link                   hard link files instead of copying
